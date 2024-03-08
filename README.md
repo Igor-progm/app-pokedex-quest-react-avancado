@@ -1,9 +1,9 @@
 # Desafio DevQuest - Pokedex SPA em React 🚀
 
-### 📝Propósito da Aplicação 📝
-Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conhecimentos avançados em ReactJS adquiridos durante as aulas exercícios práticos, além de simular um teste técnico em um processo seletivo de frontend. A aplicação é uma Single Page Application (SPA) que utiliza a API PokeAPI para exibir uma lista de Pokémons, permitindo aos usuários visualizar detalhes individuais de cada Pokémon. Além disso, a aplicação oferece a funcionalidade de alternar entre os temas claro e escuro.
+## 📝Propósito da Aplicação 📝
+Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conhecimentos avançados em ReactJS adquiridos durante as aulas exercícios práticos, além de simular um teste técnico em um processo seletivo de frontend. A aplicação é uma Single Page Application (SPA) que utiliza a API: https://pokeapi.co/ ,para exibir uma lista de Pokémons, permitindo aos usuários visualizar detalhes individuais de cada Pokémon. Além disso, a aplicação oferece a funcionalidade de alternar entre os temas claro e escuro.
 
-### 🕹️ Funcionalidades da Aplicação 🕹️
+## 🕹️ Funcionalidades da Aplicação 🕹️
 1. Listagem de Pokémons na Página Inicial:
   
   - Exibe uma lista inicial de 10 Pokémons com imagem e nome.
@@ -18,11 +18,11 @@ Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conh
 
   - Na página inicial, há um botão que permite alternar entre os temas escuro e claro (Dark/Light).
 
-### 💡 Detalhes da Implementação 💡
+## 💡 Detalhes da Implementação 💡
 
 Durante o desenvolvimento desta aplicação, foi incorporada a função de busca a um Pokémon presente na lista.
 
-#### Busca Flexível de Pokémon 🔍
+### Busca Flexível de Pokémon 🔍
 
 A funcionalidade de busca foi estendida para permitir que o usuário pesquise um Pokémon pelos caracteres de seu nome, desde que esse Pokémon  e esteja presente na lista, ou seja, que tenha sido acrescentado na lista através do botão "Load More".
 
@@ -44,7 +44,7 @@ O projeto foi desenvolvido para atender aos seguintes requisitos do teste:
   - Tipo do pokemon (type)
   - A home deve ter um botão para que o usuário possa alternar de cor entre tema claro e tema escuro (light/dark).
 
-#### 📚 Requisitos Técnicos 📚
+### 📚 Requisitos Técnicos 📚
 
   - A aplicação deverá ser Single Page Application (SPA).
   - Utilizar React.js para o desenvolvimento da aplicação.
@@ -52,14 +52,14 @@ O projeto foi desenvolvido para atender aos seguintes requisitos do teste:
   - Utilizar styled-components para estilização dos componentes.
   - Utilizar react-router-dom para a navegação entre as páginas.
 
-### 🔧 Ferramentas Utilizadas 🔧
+## 🔧 Ferramentas Utilizadas 🔧
 
   - React.js (Requisito do teste): Conhecido pela sua popularidade, eficiência e flexibilidade para o desenvolvimento de SPAs .
   - Context API (Requisito do teste): Utilizado para criar o Theme Toggler, permitindo a alternância entre temas claro e escuro de forma global na aplicação.
   - Styled-components (Requisito do teste): Escolhido para a estilização dos componentes, proporcionando um código mais legível e fácil de manter.
   - React Router Dom (Requisito do teste): Utilizado para facilitar a navegação entre as páginas da aplicação.
 
-### 📜 Decisões Adotadas 📜
+## 📜 Decisões Adotadas 📜
 
   - Criação de projeto com o Vite: O Vite tem mostrado menos 'bugs' do que o 'react-creat-app', então com a intenção de evita-los foi decidido uso do primeiro. 
   
@@ -71,21 +71,21 @@ O projeto foi desenvolvido para atender aos seguintes requisitos do teste:
 
   - Busca conceituada: É esperado que o usuário queira ver as informações dos Pokémons apenas carregados e presentes na lista, ao fazer a filtragem pelo input e clicar no botão, pois se trata de algo apenas visual e pouco interativo.
 
-### 👣 Passo a Passo para Executar o Projeto Localmente 👣
+## 👣 Passo a Passo para Executar o Projeto Localmente 👣
 
 1. Clone o repositório:
 
-  git clone https://github.com/Igor-progm/app-pokedex-quest-react-avancado
-  cd app-pokedex-quest-react-avancado
+  - git clone https://github.com/Igor-progm/app-pokedex-quest-react-avancado
+  - cd app-pokedex-quest-react-avancado
 
 2. Instale as dependências:
 
-  npm install
+  - npm install
 
 3. Execute a aplicação:
 
-  npm run dev
+  - npm run dev
 
-### 🗒️ Observações 🗒️
+## 🗒️ Observações 🗒️
 
 Certifique-se de ter o Node.js e o npm instalados em seu sistema antes de seguir os passos acima.
