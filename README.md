@@ -11,7 +11,7 @@ Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conh
   - Exibe uma lista inicial de 10 Pokémons com imagem e nome.
   - Possui um botão "Load More" que carrega mais 10 Pokémons quando clicado.
 
-2. Busca por Pokemons:
+2. Busca por Pokemon:
 
    - Permite que o usuário busque um Pokemon na lista pelo seu nome, digitando no campo da barra de navegação (input), usando a tecla Enter tanto quanto clicando no botão "Search".
 
