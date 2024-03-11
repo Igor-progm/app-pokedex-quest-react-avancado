@@ -10,6 +10,14 @@ export function Navbar({ searchPokemons }) {
     const navigate = useNavigate();
     const isHome = pathname == '/';
 
+    // fazendo pesquisa com tecla 'Enter', atribuindo a função de lidar com o click no botão 'Search'.
+    function handleKeyPress(event) {
+        if(event.key === 'Enter') {
+            handleClick();
+        }
+
+    }
+    
     // tratando o valor do input  
     function handleChange(event) {
         const { value } = event.target;
@@ -38,7 +46,7 @@ export function Navbar({ searchPokemons }) {
                 <Homebutton onClick={handleHomeClick}>Home</Homebutton>
                 {isHome &&
                     <>
-                        <Input value={inputValue} onChange={handleChange} type="text" placeholder="Digite o nome de um pokémon presente na lista..." />
+                        <Input value={inputValue} onChange={handleChange} onKeyPress={handleKeyPress} type="text" placeholder="Digite o nome de um pokémon presente na lista..." />
                         <SearchButton onClick={handleClick}>Search</SearchButton>
                     </>
                 }
