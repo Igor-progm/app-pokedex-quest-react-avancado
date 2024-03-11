@@ -13,7 +13,7 @@ Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conh
 
 2. Busca por Pokemon:
 
-  - Permite que o usuário busque um Pokemon na lista pelo seu nome, digitando no campo da barra de navegação (input), usando a tecla Enter tanto quanto clicando no botão "Search".
+  - Permite que o usuário busque um Pokemon na lista pelo seu nome, digitando no campo da barra de navegação (input), e usando a tecla Enter tanto quanto clicando no botão "Search" para filtrar pelo valor digitado dentro do campo.
 
 3. Detalhes do Pokémon:
 
