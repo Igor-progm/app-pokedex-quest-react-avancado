@@ -1,5 +1,7 @@
 # Desafio DevQuest - Pokedex SPA em React 🚀
 
+### Link de acesso: https://app-pokedex-quest-react-avancado.vercel.app/
+
 ## 📝Propósito da Aplicação 📝
 Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conhecimentos avançados em ReactJS adquiridos durante as aulas exercícios práticos, além de simular um teste técnico em um processo seletivo de frontend. A aplicação é uma Single Page Application (SPA) que utiliza a API: https://pokeapi.co/ ,para exibir uma lista de Pokémons, permitindo aos usuários visualizar detalhes individuais de cada Pokémon. Além disso, a aplicação oferece a funcionalidade de alternar entre os temas claro e escuro.
 
