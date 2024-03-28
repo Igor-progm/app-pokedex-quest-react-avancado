@@ -11,12 +11,16 @@ Este projeto foi desenvolvido como parte do Desafio DevQuest para testar os conh
   - Exibe uma lista inicial de 10 Pokémons com imagem e nome.
   - Possui um botão "Load More" que carrega mais 10 Pokémons quando clicado.
 
-2. Detalhes do Pokémon:
+2. Busca por Pokemon:
+
+  - Permite que o usuário busque um Pokemon na lista pelo seu nome, digitando no campo da barra de navegação (input), e usando a tecla Enter tanto quanto clicando no botão "Search" para filtrar pelo valor digitado dentro do campo.
+
+3. Detalhes do Pokémon:
 
   - Ao clicar em um Pokémon na lista, o usuário é redirecionado para uma página interna com informações detalhadas.
   - Detalhes incluem a imagem do Pokémon, nome, lista de movimentos (moves), lista de habilidades (abilities), descrição de cada habilidade e o tipo do Pokémon.
 
-3. Alternador de Tema Claro/Escuro:
+4. Alternador de Tema Claro/Escuro:
 
   - Na página inicial, há um botão que permite alternar entre os temas escuro e claro (Dark/Light).
 
