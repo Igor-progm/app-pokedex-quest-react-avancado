@@ -1,8 +1,8 @@
-import { getAbilityDescription } from "../services/request-API";
+import { getAbilityDescription } from "../../services/request-API";
 import { useEffect, useState } from "react";
-import { Navbar } from "../components/Navbar";
+import { Navbar } from "../../components/Navbar";
 import { useParams } from "react-router-dom";
-import { PokemonInfo } from "../components/PokemonInfo";
+import { PokemonInfo } from "../../components/PokemonInfo";
 
 export const PokemonDetailedView = () => {
   const [pokemonDetail, setPokemonDetail] = useState();

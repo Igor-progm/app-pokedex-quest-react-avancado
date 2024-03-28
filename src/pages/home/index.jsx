@@ -1,11 +1,10 @@
-import { Navbar } from "../components/Navbar";
-import styled from "styled-components";
-import { getListName } from "../services/request-API";
+import { Navbar } from "../../components/Navbar";
+import { getListName } from "../../services/request-API";
 import { useState, useEffect } from "react";
-import { ContainerPokemons } from "../components/ContainerPokemons";
+import { ContainerPokemons } from "../../components/ContainerPokemons";
 import React, { useContext } from "react"
-import { ThemeContext } from "../contexts/theme-context"
-
+import { ThemeContext } from "../../contexts/theme-context"
+import { LoadButton, LoadSection } from "./style";
 export function Home() {
     const [count, setCount] = useState(10);
     const [pokemonListShow, setPokemonListShow] = useState([]);
@@ -50,29 +49,3 @@ export function Home() {
         </>
     );
 }
-
-
-
-const LoadSection = styled.div`
-    display: flex;
-    justify-content: center;
-    padding-bottom: 40px;
-    background-color: ${props => props.theme.background};
-`
-
-const LoadButton = styled.button`
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
-    border: 0;
-    background-color: #3fa2e4;
-    margin-top: 20px;
-    cursor: pointer;
-    opacity: 0.8;
-    transition: 0.3s;
-    color: #fff;
-
-    &:hover {
-        opacity: 1;
-    }
-`
